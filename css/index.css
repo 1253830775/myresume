@@ -175,7 +175,7 @@
 			color: rgb(51,102,204);
 		}
 		.contact_wrap{
-			width: 200;
+			width: 200px;
 			margin: 0 auto;
 			margin-top: 30px;
 			color: rgb(51,102,204);
@@ -191,7 +191,7 @@
 			list-style: none
 		}
 		.exp_wrap{
-			width: 600;
+			width: 600px;
 			margin: 0 auto;
 			margin-top: 30px;
 			color: white;
