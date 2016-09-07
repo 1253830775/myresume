@@ -1,0 +1,211 @@
+*{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+	    body{
+	    	background: url(../pics/tm-bg-slide-3.jpg) no-repeat;
+	    	background-attachment: fixed;
+	    }
+		#myphoto{
+			border-radius: 50%;
+			width: 250px;
+			height: 250px;
+			margin: 0 auto;
+			overflow: hidden;
+			margin-top: 150px;
+		}
+		img{
+			margin-top: -30px;
+			width: 250px;
+		}
+		#top_text{
+			width: 400px;
+			margin: 0 auto;
+			margin-top: 30px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 2.3;
+			color: rgb(102,204,255)
+		}
+		#content{
+			width: 1140px;
+			height: 1050px;
+			margin: 0 auto;
+			margin-top: 120px;
+		}
+		.easypro{
+			width: 555px;
+			height: 330px;
+			background-color: white;
+			float: left;
+		}
+		.skills{
+			width: 555px;
+			height: 330px;
+			background-color: rgb(51,102,204);
+			float: left;
+			margin-left: 30px;
+		}
+		.edu{
+            width: 755px;
+			height: 330px;
+			background-color: rgb(51,102,204);
+			float: left;
+			margin-top: 30px;
+		}
+		.lan{
+			width: 355px;
+			height: 330px;
+			background-color: white;
+			float: left;
+			margin-left: 30px;
+			margin-top: 30px;
+		}
+		.contact{
+			width: 355px;
+			height: 330px;
+			background-color: white;
+			float: left;			
+			margin-top: 30px;
+		}
+		.experience{
+			width: 755px;
+			height: 330px;
+			background-color: rgb(51,102,204);
+			float: left;
+			margin-top: 30px;
+			margin-left: 30px;
+		}
+		#easypro_wrap{
+			width: 450px;
+			margin: 0 auto;
+			margin-top: 30px;
+			line-height: 1.6;
+		}
+		#easypro_title{
+			font-size: 20px;
+			font-weight: 700;
+			color: rgb(51,102,204);
+			margin-bottom: 20px;
+		}
+		#easypro_wrap p{
+			color: rgb(51,102,204);
+		}
+		#major_class{
+			margin-left: 30px;
+		}
+		.ski_wrap{
+			width: 450px;
+			margin: 0 auto;
+			margin-top: 30px;
+			color: white;
+			font-weight: 500;
+		}
+		.ski_wrap div{
+			margin-bottom: 16px;
+		}
+		.ski_title{
+			font-size: 20px;
+			font-weight: 700;
+			color: white;
+			margin-bottom: 20px;
+		}
+		.num{
+			float: right;
+		}
+		.name{
+			float: left;
+		}
+		progress{
+			border: none;
+			background: white;
+			width: 450px;
+			height: 6px;
+		}
+		progress::-moz-progress-bar {
+			background: rgb(32,64,144);
+		}
+		#edu_wrap{
+			width: 600px;
+			margin: 0 auto;
+			margin-top: 30px;
+			color: white;
+			font-weight: 500;
+			line-height: 1.6;
+		}
+		#edu_title{
+			font-size: 20px;
+			font-weight: 700;
+			color: white;
+			margin-bottom: 30px;
+		}
+		#company{
+			width: 600px;
+			height: 40px;
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		#company p{
+			float: left;
+			margin-left: 30px;
+		}
+		.icono-user{
+			color: rgb(51,102,204);
+		}
+		.icono-pin{
+            color: rgb(51,102,204);
+		}
+		.icono-iphone{
+			color: rgb(51,102,204);
+		}
+		.icono-mail{
+			color: rgb(51,102,204);
+		}
+		.lan ul li{
+			color: rgb(51,102,204);
+			list-style: none;
+			text-align: left;
+			margin-top: 26px;
+			margin-left: 80px;
+		}
+		.lan_title{
+			font-size: 20px;
+			font-weight: 700;
+			color: rgb(51,102,204);
+		}
+		#contact_wrap{
+			width: 200;
+			margin: 0 auto;
+			margin-top: 30px;
+			color: rgb(51,102,204);
+			font-weight: 500;
+			line-height: 1.6;
+		}
+		#contact_title{
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 30px;
+		}
+		#contact_wrap ul li{
+			list-style: none
+		}
+		.exp_wrap{
+			width: 600;
+			margin: 0 auto;
+			margin-top: 30px;
+			color: white;
+			font-weight: 500;
+			line-height: 1.6;
+		}
+		.exp_title{
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 30px;
+		}
+		#bottom{
+			text-align: center;
+			color: rgb(51,102,204);
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
