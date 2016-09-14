@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/icono.min.css">
+	<link rel="stylesheet" href="musicplayer.css">	
+</head>
+<body>
+<canvas id="c">
+</canvas>
+	<div id="tiny_player">
+        <table id="tb">
+	    	<tr>
+	    		<th class="num">序号</td><th class="music_title">音乐标题</th><th class="music_player">歌手</th><th class="music_duration">时长</th>
+	    	</tr>
+	    	<tr>
+	    		<td class="num">1</td><td class="music_title">Flowers In Your Hair</td><td class="music_player">The Lumineers</td><td class="music_duration">01:49</td>
+	    	</tr>
+	    	<tr>
+	    		<td class="num">2</td><td class="music_title">Gone,Gone,Gone</td><td class="music_player">Phillip Phillips</td><td class="music_duration">03:29</td>
+	    	</tr>
+	    	<tr>
+	    		<td class="num">3</td><td class="music_title">I need some sleep</td><td class="music_player">Eels</td><td class="music_duration">01:35</td>
+	    	</tr>
+	    	<tr>
+	    		<td class="num">4</td><td class="music_title">Royals</td><td class="music_player">Lorde</td><td class="music_duration">03:10</td>
+	    	</tr>
+	    	<tr>
+	    		<td class="num">5</td><td class="music_title">Rabbit</td><td class="music_player">Matt Duke</td><td class="music_duration">02:57</td>
+	    	</tr>
+	    	
+    	</table>
+    	<div id="top">   	    
+    	    
+    	    <div class="icono-caretDown"></div>
+    	    <div id="circle"><img src="../pics/0.jpg" alt=""></div>
+    	</div>
+		<div id="music_panel">
+			<p id="controller">
+			    <i class="icono-rewind"></i>
+				<i class="icono-play"></i>
+				<i class="icono-forward"></i>
+			</p>
+			<div id="progress">
+				<span id="pro_num">00:00</span>
+				<progress id="music_pro" value="0" max="100"></progress>
+				<span id="pro_dur">00:00</span>
+			</div>			
+		</div>
+		
+		<audio  class="audio" src="../audio/Flowers.ogg"></audio>
+		<audio  class="audio" src="../audio/Gone,Gone,Gone.ogg"></audio>
+		<audio  class="audio" src="../audio/I Need Some Sleep.ogg"></audio>
+		<audio  class="audio" src="../audio/Lorde - Royals.ogg"></audio>
+		<audio  class="audio" src="../audio/Matt Duke - Rabbit.ogg"></audio>
+    </div>
+
+    
+	
+	
+    <script src="jquery.js"></script>
+    <script src="tryclass.js"></script>
+    <script src="rain.js"></script>
+	<p>拖动进度条</p>
+	<p>音量调节</p>
+	<p>下一首</p>
+	<p>美化</p>
+</body>
+</html>
