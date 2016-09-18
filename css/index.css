@@ -213,6 +213,18 @@
 			color: blue;
 			cursor: pointer;
 		}
+		.browser{
+			width: 200px;
+			text-align: center;
+			background-color: #366;
+			margin-top: 20px;
+		}
+		.browser:hover{
+			background-color: white;
+			color: blue;
+			cursor: pointer;
+		}
+
 		#bottom{
 			text-align: center;
 			color: rgb(51,102,204);
